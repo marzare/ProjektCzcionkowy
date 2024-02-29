@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tekstWlasciwosciCzcionki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Właściwości czcionki"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:background="#558B2F"/>
+
+    <TextView
+        android:id="@+id/tekstRozmiarCzcionki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozmiar: "
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"/>
+
+    <SeekBar
+        android:id="@+id/suwakRozmiaruCzcionki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="40"
+        android:progress="20"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tekstTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dzień dobry"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/przyciskZmianyTekstu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">>"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
